@@ -1,0 +1,38 @@
+{
+  "name": "build-api-using-node",
+  "version": "1.0.0",
+  "description": "Build API using nodejs,express js and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanta-ghosh/build-api-using-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "mongodb",
+    "expressjs",
+    "tutorial",
+    "javascript",
+    "js",
+    "node"
+  ],
+  "author": "Sumanta Kr Ghosh <sumanta.ghosh@infoway.us> (http://infoway.us)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumanta-ghosh/build-api-using-node/issues"
+  },
+  "homepage": "https://github.com/sumanta-ghosh/build-api-using-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
